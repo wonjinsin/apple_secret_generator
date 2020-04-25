@@ -1,7 +1,7 @@
 {
   "name": "apple_secret_generator",
-  "version": "1.0.31",
-  "description": "Simple Apple Secret key generator for javascript",
+  "version": "1.0.32",
+  "description": "Simple Apple client secret key generator for javascript",
   "main": "index.js",
   "keywords": [
     "apple secret",

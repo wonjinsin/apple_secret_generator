@@ -1,6 +1,6 @@
 # apple_secret_generator
 
-Simple Apple Secret key generator for javascript
+Simple Apple client secret key generator for javascript
 
 ## Getting Started
 
