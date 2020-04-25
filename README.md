@@ -23,6 +23,8 @@ const token = aps.generate({
   key_id: process.env.KEY_ID, // Key ID
 });
 
+console.log(token);
+
 ```
 
 ## Built With
