@@ -17,7 +17,7 @@ const aps = require("apple_secret_generator");
 
 const token = aps.generate({
   keyFileLocation: "./AppleLoginAuthKey.p8", // put generated p8 file directory
-  expires: 180,
+  expires: 180, // default is 180 days, apple allows expire date until 180 days 
   team_id: process.env.TEAM_ID, // App ID Prefix's TEAM ID
   identifier: process.env.IDENTIFIER, // Services IDs IDNETIFIER
   key_id: process.env.KEY_ID, // Key ID
