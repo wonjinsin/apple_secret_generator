@@ -7,7 +7,7 @@ Simple Apple Secret key generator for javascript
 ### Installing
 
 ```
-npm instrall apple_secret_generator
+npm install apple_secret_generator
 ```
 
 ## Usage
