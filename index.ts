@@ -1,7 +1,19 @@
 const jwt = require("jsonwebtoken");
 const fs = require("fs");
 
-const apple_secret_generator = {
+export interface AppleSecretGeneratorParams {
+    keyFileLocation: string;
+    expires?: number | string;
+    team_id: string;
+    identifier: string;
+    key_id: string;
+}
+
+export interface AppleSecretGenerator {
+  generate: (params: AppleSecretGeneratorParams) => string;
+}
+
+const apple_secret_generator: AppleSecretGenerator = {
   generate: function ({
     keyFileLocation,
     expires = "180",
