@@ -21,7 +21,7 @@
   "license": "MIT",
   "homepage": "https://github.com/wonjinsin/apple_secret_generator",
   "dependencies": {
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^9.0.0"
   },
   "devDependencies": {
     "tslib": "^1.11.1",
